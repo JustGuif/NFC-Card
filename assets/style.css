@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;1,300&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    background-color: #0D1A2D;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+}
+.box-content{
+    width: 300px;
+    height: 500px;
+    background-color: #15273F;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+    border-radius: 20px;
+    padding: 17px;
+    transition: 500ms ease-in-out all;
+    cursor: pointer;
+}
+.box-content:hover{
+    box-shadow: rgba(31, 95, 114, 0.3) 5px 5px, rgba(31, 95, 114, 0.3) 10px 10px, rgba(31, 95, 114, 0.2) 15px 15px, rgba(31, 95, 114, 0.1) 20px 20px, rgba(31, 95, 114, 0.05) 25px 25px;
+}
+.main-image{
+    display: flex;
+    justify-content: center;
+}
+.main-image img{
+    width: 100%;
+    height: 50%;
+    border-radius: 12px;
+}
+.main-infos{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 12px;
+}
+.main-infos h3{
+    color: #fff;
+    font-weight: 600;
+}
+.main-infos p{
+    font-size: 11pt;
+    color: #637897;
+}
+.second-infos{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.info1, i{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #08faf8;
+    gap: 0.6rem;
+    font-weight: 500;
+    font-size: 12pt;
+}
+.info2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #85A9D3;
+    gap: 0.6rem;
+    font-weight: 500;
+    font-size: 10pt;
+}
+#line{
+    width: 100%;
+    height: 1px;
+    background-color: #273951;
+    margin-top: 1em;
+}
+
+.credits{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 13px;
+}
+.credits .perfil{
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+.credits p{
+    font-size: 10pt;
+    color: #85A9D3;
+}
+.credits #name{
+    color: white;
+}
